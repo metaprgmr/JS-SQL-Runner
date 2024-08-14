@@ -4,7 +4,7 @@ The asynchronous nature of NodeJS makes running SQL tedious and verbose. This li
 
 All the use cases are covered by the test script, <code>mytest.js</code>. The current version is written and tested against SQLite and MySQL, but can and should be adapted to any RDBMS's. The only thing to be customized is the way to get the last INSERTed ID, which is not covered by standard SQL.
 
-Set up your faviour NodeJS environment, make sure SQLite3 module is installed, then run <code>mytest.js</code>, and you shall see its output as follows:
+Set up your favourite NodeJS environment, make sure SQLite3 module is installed, then run <code>mytest.js</code>, and you shall see its output as follows:
 
 <pre>
 % node mytest.js 

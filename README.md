@@ -2,7 +2,7 @@
 
 The asynchronous nature of NodeJS makes running SQL tedious and verbose. This little utility sports serially running SQL statements without complicated asynchronous programming. Adopting certain patterns of usage, it is possible to retrieve and pass on newly inserted row IDs, and serialize the execution of SQL statements for dependent operations.
 
-The test script, <code>mytest.js</code>, provides some simple use cases. The current version is written and tested against SQLite. Much documentation work is yet to happen.
+The test script, <code>mytest.js</code>, provides some simple use cases. The current version is written and tested against SQLite. Much documentation work is needed.
 
 Set up your favourite NodeJS environment, make sure SQLite3 module is installed, then run <code>mytest.js</code>, and you shall see its output as follows:
 
